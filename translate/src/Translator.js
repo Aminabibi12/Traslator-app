@@ -4,7 +4,7 @@ import languageList from './language.json';
 
 function Translator() { 
 	const [inputFormat, setInputFormat] = useState('en'); 
-	const [outputFormat, setOutputFormat] = useState('hi'); 
+	const [outputFormat, setOutputFormat] = useState('es'); 
 	const [translatedText, setTranslatedText] = useState('Translation'); 
 	const [inputText, setInputText] = useState(''); 
 
